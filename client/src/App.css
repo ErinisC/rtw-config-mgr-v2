@@ -13,6 +13,10 @@
   }
 }
 
+.App-title{
+  font-size: 3vw;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,7 +30,7 @@
 
 .form-style{
   color:rgb(255, 255, 255);
-  font-size: 3vh;
+  font-size: 2vh;
   width: 60%;
 }
 
@@ -133,6 +137,7 @@
   border-radius: 30px;
   background-color: #4d4d4d;
   transition: all .2s ease;
+  font-size: 21px;
 }
 
 .wrg-toggle-circle{
@@ -149,4 +154,40 @@
   background-color: #fafafa;
   box-sizing: border-box;
   /* transition: all .45s ease; */
+}
+
+
+.submitBtn{
+  margin: 5vw 0;
+  width: 85px;
+  height: 38px;
+  border-radius: 17px;
+  border: #4d4d4d;
+  color: #121316;
+  font-weight: 600;
+  font-size: 18px;
+}
+.submitBtn:hover{
+  background-color: rgb(49, 104, 54);
+  color: azure;
+  cursor: pointer;
+  border: 3px solid #ccc;
+}
+
+.langSelect{
+  background: #003d79;
+  color: #fafafa;
+  margin: 15px;
+  width: 150px;
+  height: 3em;
+  padding: 8px;
+  position: relative;
+  border-radius: 5px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), linear-gradient(#182e44, #003d79);
+  background-position: right 0.5em top 50%, 0 0;
+  background-size: contain, cover;
+  background-repeat: no-repeat, repeat;
 }
